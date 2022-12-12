@@ -1,0 +1,123 @@
+.titie-section1{
+    margin-bottom: 70px;
+    display: block;
+    position: relative;
+}
+.section-p{
+    margin: 0 0 10px;
+    margin-left: 420px;
+    margin-right: 425px;
+    margin-top: 30px;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.titie-section1 h1{
+    margin: 0;
+    padding: 0;
+    display: block;
+    text-align: center;
+    font-size: 48px;
+    color: #515151;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.titie-section1 h1:before{
+    content: "";
+    width: 165px;
+    display: block;
+    height: 3px;
+    background:#515151;
+    position: absolute;
+    bottom: -16px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+.titie-section1 h1:after{
+    content: "";
+    width: 165px;
+    display: block;
+    height: 3px;
+    background:#515151;
+    position: absolute;
+    bottom: -30px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+.titie-section1:after{
+    content: "";
+    width: 165px;
+    display: block;
+    height: 7px;
+    background:#515151;
+    position: absolute;
+    bottom: -25px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.titie-section1.white h1:before{
+    content: "";
+    width: 165px;
+    display: block;
+    height: 3px;
+    background:#fff;
+    position: absolute;
+    bottom: -16px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.titie-section1.white h1:after{
+    content: "";
+    width: 165px;
+    display: block;
+    height: 3px;
+    background:#fff;
+    position: absolute;
+    bottom: -30px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+.titie-section1.white:after{
+    content: "";
+    width: 165px;
+    display: block;
+    height: 7px;
+    background:#fff;
+    position: absolute;
+    bottom: -25px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+.news-section .titie-section1{
+    display: block;
+    margin-bottom: 80px;
+}
+.contact-section .titie-section1{
+    display: block;
+    margin-bottom: 80px;
+}
+.contact-section .titie-section1 h1{
+    color: #fff;
+}
+.product-hover {
+	position: absolute;
+    display: block;
+    width: 100%;
+
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    border: 10px solid rgba(255, 255, 255, 0.55);
+    text-align: center;
+    transform: scale(0.1, 0.1);
+    opacity: 0;
+    transition: all 0.5s;
+}

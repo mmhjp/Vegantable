@@ -1,0 +1,50 @@
+.poto {
+    position: absolute; 
+    right: 65%; 
+    top: 180px; 
+    margin-right: -720px;
+    text-align:center;
+    width: 120px;
+}
+.poto i{
+    font-size: 130px;
+    padding: 3px 3px;
+
+}
+
+.poto-font{
+    color: black;
+    font-size: 16px;
+}
+.camera {
+    text-align: center;
+}
+.camera-text {
+    width : 553px;
+    height: 73px;
+}
+.cameraicon{
+
+    font-weight : 900;
+    font-family: "Font Awesome 5 Free";
+    background-color : transparent;
+    border : none;
+    cursor : pointer;
+    position : absolute;
+    right : 5px;
+    top : 63%;
+    transform : translatey(-50%);
+}
+.cameraicon{
+    content : "\f002";
+  }
+.cameraicon i {
+    font-size: 50px;
+    border-left: 1px solid gray;
+    margin-bottom: 55px;
+    padding: 11px;
+}
+.fa-solid {
+    text-align: center;
+    margin-left: 120px;
+}
